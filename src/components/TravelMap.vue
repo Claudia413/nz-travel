@@ -1,11 +1,11 @@
 <template>
   <div class="map">
-   <svg version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1368" height="722" xml:space="preserve">
+   <svg  class="map-graph" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1368" height="722" xml:space="preserve">
         <desc>JavaScript chart by amCharts 3.21.13</desc>
         <desc>This map was created using Pixel Map Generator by amCharts and is licensed under the Creative Commons Attribution 4.0 International License. You may use this map the way you see fit as long as proper attribution to the name of amCharts is given in the form of link to http://pixelmap.amcharts.com/ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ If you would like to use this map without any attribution, you can acquire a commercial license for the JavaScript Maps - a tool that was used to produce this map. To do so, visit amCharts Online Store: http://www.amcharts.com/online-store/</desc>
         <g>
             <g>
-            <path cs="100,100" d="M0.5,0.5 L1367.5,0.5 L1367.5,770.5 L0.5,770.5 Z" fill="#74b3d3" stroke="#000000" fill-opacity="1" stroke-width="1" stroke-opacity="1" class="amcharts-bg"></path>
+            <path cs="100,100" d="M0.5,0.5 L1367.5,0.5 L1367.5,770.5 L0.5,770.5 Z" fill="#74b3d3" fill-opacity="1" stroke-width="1" stroke-opacity="1" class="amcharts-bg"></path>
             </g>
             <g transform="translate(346.09554185994546,-68.73286064996287) scale(1.39748)">
                 <g transform="translate(0,0) scale(0.7311912127852245)">
@@ -68,7 +68,7 @@
                         <path cs="100,100" d="M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123" transform="translate(-16.27649974822998,-16.5) scale(1)" stroke-opacity="0" fill-opacity="1" fill="#c89c27" class="amcharts-map-image"></path>
                     </g>
                     <g role="menuitem" aria-label="Auckland " transform="translate(250.19169727872028,139.05063293536614) scale(0.7155737470303689)" cursor="pointer">
-                        <path cs="100,100" d="M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123" transform="translate(-13.021199798583986,-13.200000000000001) scale(0.8)" stroke-opacity="0" fill-opacity="0.8" fill="#f0972d" class="amcharts-map-image amcharts-selected-object"></path>
+                        <path cs="100,100" d="M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123" transform="translate(-16.27649974822998,-16.5) scale(1)" stroke-opacity="0" fill-opacity="0.8" fill="#f0972d" class="amcharts-map-image amcharts-selected-object"></path>
                     </g>
                     <g role="menuitem" aria-label="Whitianga " transform="translate(279.0664382716088,149.95269391799386) scale(0.7155737470303689)">
                         <path cs="100,100" d="M3.5,13.277C3.5,6.22,9.22,0.5,16.276,0.5C23.333,0.5,29.053,6.22,29.053,13.277C29.053,14.54,28.867,15.759,28.526,16.914C26.707,24.271,16.219,32.5,16.219,32.5C16.219,32.5,4.37,23.209,3.673,15.542C3.673,15.542,3.704,15.536,3.704,15.536C3.572,14.804,3.5,14.049,3.5,13.277C3.5,13.277,3.5,13.277,3.5,13.277M16.102,16.123C18.989,16.123,21.329,13.782,21.329,10.895C21.329,8.008,18.989,5.668,16.102,5.668C13.216,5.668,10.876,8.008,10.876,10.895C10.876,13.782,13.216,16.123,16.102,16.123C16.102,16.123,16.102,16.123,16.102,16.123" transform="translate(-16.27649974822998,-16.5) scale(1)" stroke-opacity="0" fill-opacity="0.8" fill="#f0972d" class="amcharts-map-image"></path>
@@ -93,8 +93,10 @@ export default {
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
 .map {
-    height: 90vh;
-    width: 100vw;
+    height: calc(100vh - 51px);
+    width: 900px;
+    max-width: 900px;
+    transform: translateX(-35%);
 }
  .map-graph {
      width: 100%;
