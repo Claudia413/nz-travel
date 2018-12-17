@@ -1,5 +1,6 @@
 <template>
-  <div class="map">
+<div class="view">
+  <section class="map">
    <svg  class="map-graph" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1368" height="722" xml:space="preserve">
         <desc>JavaScript chart by amCharts 3.21.13</desc>
         <desc>This map was created using Pixel Map Generator by amCharts and is licensed under the Creative Commons Attribution 4.0 International License. You may use this map the way you see fit as long as proper attribution to the name of amCharts is given in the form of link to http://pixelmap.amcharts.com/ To view a copy of this license, visit http://creativecommons.org/licenses/by/4.0/ If you would like to use this map without any attribution, you can acquire a commercial license for the JavaScript Maps - a tool that was used to produce this map. To do so, visit amCharts Online Store: http://www.amcharts.com/online-store/</desc>
@@ -77,7 +78,12 @@
             </g>
         </g>
     </svg>
-  </div>
+  </section>
+  <section class="story">
+      <h1>New Zealand</h1>
+      <h6>trails and tracks</h6>
+  </section>
+</div>
 </template>
 
 <script>
@@ -92,6 +98,11 @@ export default {
 
 <!-- Add "scoped" attribute to limit CSS to this component only -->
 <style scoped>
+.view {
+    display: flex;
+    flex-direction: row;
+    font-family: 'Montserrat', sans-serif;
+}
 .map {
     height: calc(100vh - 51px);
     width: 900px;
@@ -101,5 +112,21 @@ export default {
  .map-graph {
      width: 100%;
      height: 100%;
+ }
+ .story {
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+ }
+ h1 {
+     color: #773400;
+     margin-bottom: 5px;
+     font-size: 38px;
+ }
+ h6 {
+     color: #F0972D;
+     margin: 0;
+     font-size: 19px;
+     font-weight: bold;
  }
 </style>
