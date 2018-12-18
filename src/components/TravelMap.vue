@@ -82,6 +82,8 @@
   <section class="story">
       <h1>New Zealand</h1>
       <h6>trails and tracks</h6>
+      <p>Flying from Amsterdam to Hong Kong, to Auckland to Queenstown. Leaving on Sunday, arriving on a Tuesday, being in a noisy aircraft with little leg space and ways to sit after 20hours sitting in a chair. Then you're there, the other side of the world.</p>
+      <p>While it is almost exactly on the other side of the planet, it is not as different as countries less far away might be.</p>
   </section>
 </div>
 </template>
@@ -102,6 +104,8 @@ export default {
     display: flex;
     flex-direction: row;
     font-family: 'Montserrat', sans-serif;
+    display: grid;
+    grid-template-columns: 50% 50%;
 }
 .map {
     height: calc(100vh - 51px);
@@ -117,6 +121,7 @@ export default {
      display: flex;
      flex-direction: column;
      align-items: center;
+     width: 100%;
  }
  h1 {
      color: #773400;
